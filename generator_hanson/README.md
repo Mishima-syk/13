@@ -20,7 +20,7 @@ $ git clone https://github.com/MarcusOlivecrona/REINVENT.git
 ```
 - Get learned dataset,, unzip and move the folder to REINVENT
 ```
-$ wget ******
+$ wget https://github.com/Mishima-syk/13/blob/master/generator_hanson/data.zip 
 $ unzip data.zip
 $ mv data ./REINVENT/
 ```
