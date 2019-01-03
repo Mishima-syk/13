@@ -34,6 +34,13 @@ $ ./main.py --scoring-function tanimoto --scoring-function-kwargs query_structur
 - This model was trained with 1.1 million SMILES strings which is provided from ChEMBL.
 - It tooks several hours for traingin with GPU machine (GTX 1080Ti)
 
+
+## Example on Google colab
+- You can run the code on google colab.
+- It will take 10-20 min for environment preparation.
+- Please check following URL and run the code!
+- https://github.com/iwatobipen/playground/blob/master/mishima_syk13_hanson1.ipynb
+
 ## Acknowledgements
 - Marcus Olivecrona, developer of [REINVENT](https://github.com/MarcusOlivecrona/REINVENT)
 
