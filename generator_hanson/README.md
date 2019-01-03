@@ -3,7 +3,7 @@
 ## Molecular generator hans-on
 
 ## Author
-- kzfm_, iwatobipen
+- fmkz___, iwatobipen
 
 ## Requirements
 
@@ -35,6 +35,6 @@ $ ./main.py --scoring-function tanimoto --scoring-function-kwargs query_structur
 - It took several hours for traingin with GPU machine (GTX 1080Ti)
 
 ## Acknowledgements
-- Marcus Olivecrona who is developer or REINVENT
+- Marcus Olivecrona who is developer of [REINVENT](https://github.com/MarcusOlivecrona/REINVENT)
 
 
