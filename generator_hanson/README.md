@@ -1,9 +1,9 @@
 # 13
 
-## Molecular generator hans-on
+## Molecular generator hands-on
 
-## Author
-- kzfm_, iwatobipen
+## Authors
+- fmkz___, iwatobipen
 
 ## Requirements
 
@@ -13,7 +13,7 @@
 
 ## How to start
 
-- clone REINVENT
+- Clone REINVENT
 ```
 $ cd <path to your working directory>
 $ git clone https://github.com/MarcusOlivecrona/REINVENT.git
@@ -24,17 +24,17 @@ $ wget https://github.com/Mishima-syk/13/raw/master/generator_hanson/data.zip
 $ unzip data.zip
 $ mv data ./REINVENT/
 ```
-- run the sample code with 'tanimoto query'
-- large --num-steps number requires log CPU times. To use the option, you need GPU machine. ;-)
+- Run the sample code with 'tanimoto query'
+- (Large num-steps number requires long CPU times. You need a GPU if you set large step number ;-))
 ```
 $ ./main.py --scoring-function tanimoto --scoring-function-kwargs query_structure 'COc1ccccc1' --num-steps 10
 ```
 
 ## About the data
-- this model was trained with 1.1 million SMILES strings which is provided from ChEMBL.
-- It took several hours for traingin with GPU machine (GTX 1080Ti)
+- This model was trained with 1.1 million SMILES strings which is provided from ChEMBL.
+- It tooks several hours for traingin with GPU machine (GTX 1080Ti)
 
 ## Acknowledgements
-- Marcus Olivecrona who is developer or REINVENT
+- Marcus Olivecrona, developer of [REINVENT](https://github.com/MarcusOlivecrona/REINVENT)
 
 
