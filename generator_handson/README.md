@@ -31,7 +31,7 @@ $ git clone https://github.com/MarcusOlivecrona/REINVENT.git
 - Get learned dataset,, unzip and move the folder to REINVENT
 
 ```
-$ wget https://github.com/Mishima-syk/13/raw/master/generator_hanson/data.zip
+$ wget https://github.com/Mishima-syk/13/raw/master/generator_handson/data.zip
 $ unzip data.zip
 $ mv data ./REINVENT/
 ```
@@ -53,7 +53,7 @@ $ ./main.py --scoring-function tanimoto --scoring-function-kwargs query_structur
 - You can run the code on google colab.
 - It will take 10-20 min for environment preparation.
 - Please check following URL and run the code!
-- https://github.com/iwatobipen/playground/blob/master/mishima_syk13_hanson1.ipynb
+- https://github.com/iwatobipen/playground/blob/master/mishima_syk13_handson1.ipynb
 
 ## Acknowledgements
 
