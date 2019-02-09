@@ -53,7 +53,7 @@ $ ./main.py --scoring-function tanimoto --scoring-function-kwargs query_structur
 - You can run the code on google colab.
 - It will take 10-20 min for environment preparation.
 - Please check following URL and run the code!
-- https://github.com/iwatobipen/playground/blob/master/mishima_syk13_handson1.ipynb
+- https://colab.research.google.com/github/iwatobipen/playground/blob/master/mishima_syk13_handson1.ipynb
 
 ## Acknowledgements
 
